@@ -10,8 +10,9 @@ public class ArrayIntoArray {
 		}
 		tempArray[tempArray.length - 1] = x;
 		return tempArray;
+
 	}
-		public int[] addElementInOrder(int[] arr, int x) {
+	public int[] addElementInOrder(int[] arr, int x) {
 		int[] tempArray = new int[arr.length + 1];
 		int index = 0;
 		
