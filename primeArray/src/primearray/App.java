@@ -9,7 +9,8 @@ public class App {
 		
 		ArrayIntoArray eaa = new ArrayIntoArray();
 		
-		System.out.println(Arrays.toString(eaa.addElementIntoArray(array, 505)));
+		//System.out.println(Arrays.toString(eaa.addElementIntoArray(array, 505)));
+		System.out.println(Arrays.toString(eaa.addElementInOrder(array, 7)));
 	}
 
 }
